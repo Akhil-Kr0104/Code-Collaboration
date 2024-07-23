@@ -47,7 +47,7 @@ const Home = () => {
                     <input
                         type="text"
                         className="inputBox"
-                        placeholder="ROOM ID"
+                        placeholder="Room ID"
                         onChange={(e) => setRoomId(e.target.value)}
                         value={roomId}
                         onKeyUp={handleInputEnter}
@@ -55,7 +55,7 @@ const Home = () => {
                     <input
                         type="text"
                         className="inputBox"
-                        placeholder="USERNAME"
+                        placeholder="Username"
                         onChange={(e) => setUsername(e.target.value)}
                         value={username}
                         onKeyUp={handleInputEnter}
@@ -66,7 +66,7 @@ const Home = () => {
                     <span className="createInfo">
                         If you don't have an invite then create &nbsp;
                         <a href='/' onClick={createNewRoom} className="createNewBtn">
-                            new room
+                            New Room
                         </a>
                     </span>
                 </div>
@@ -74,7 +74,7 @@ const Home = () => {
             <footer>
                 <h4>
                     Built with 💛&nbsp; by&nbsp;
-                    <a href="/">Sagar</a>
+                    <a href="/">Akhil</a>
                 </h4>
             </footer>
         </div>
